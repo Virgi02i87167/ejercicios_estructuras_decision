@@ -30,10 +30,10 @@ function iniciar() {
         } else if (parseInt(opcion) === 7) {
             ejercicio7();
         } else if (parseInt(opcion) === 8) {
-            rl.close(); // Cierra la interfaz readline para finalizar el programa
+            rl.close(); 
         } else {
             console.log("Opción no válida. Por favor, ingrese un número del 1 al 8.");
-            iniciar(); // Vuelve a mostrar el menú si la opción no es válida
+            iniciar();
         }
     });
 }
@@ -52,7 +52,7 @@ function ejercicio1() {
         } else {
             console.log("Por favor, ingrese un número válido.");
         }
-        iniciar(); // Llama a iniciar después de completar el ejercicio
+        iniciar(); 
     });
 }
 
@@ -74,7 +74,7 @@ function ejercicio2() {
                 } else {
                     console.log("Por favor, ingrese números válidos.");
                 }
-                iniciar(); // Llama a iniciar después de completar el ejercicio
+                iniciar(); 
             });
         });
     });
@@ -92,7 +92,7 @@ function ejercicio3() {
         } else {
             console.log("Por favor, ingrese un número válido.");
         }
-        iniciar(); // Llama a iniciar después de completar el ejercicio
+        iniciar(); 
     });
 }
 
@@ -108,7 +108,7 @@ function ejercicio4() {
         } else {
             console.log("Por favor, ingrese un número válido.");
         }
-        iniciar(); // Llama a iniciar después de completar el ejercicio
+        iniciar();
     });
 }
 
@@ -124,7 +124,7 @@ function ejercicio5() {
             } else {
                 console.log("La combinación no se encuentra disponible");
             }
-            iniciar(); // Llama a iniciar después de completar el ejercicio
+            iniciar(); 
         });
     });
 }
@@ -176,7 +176,7 @@ function ejercicio6() {
         } else {
             console.log("Por favor, ingrese un número de mes válido (del 1 al 12).");
         }
-        iniciar(); // Llama a iniciar después de completar el ejercicio
+        iniciar(); 
     });
 }
 
@@ -201,7 +201,7 @@ function ejercicio7() {
                 break;
         }
         console.log(tipoVehiculo);
-        iniciar(); // Llama a iniciar después de completar el ejercicio
+        iniciar(); 
     });
 }
 
