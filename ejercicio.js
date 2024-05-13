@@ -4,6 +4,14 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 function iniciar() {
+    console.log("=== Menú de opciones ===");
+    console.log("1. Determinar si un número es positivo, negativo o cero");
+    console.log("2. Encontrar el mayor de tres números");
+    console.log("3. Calcular el factorial de un número");
+    console.log("4. Determinar si un número es par");
+    console.log("5. Determinar el color resultante de mezclar dos colores primarios");
+    console.log("6. Obtener el nombre de un mes a partir de su número");
+    console.log("7. Determinar el tipo de vehículo según la categoría");
     rl.question("Digite la opcion: ", (opcion) => {
         if (parseInt(opcion) === 1) {
             ejercicio1()
@@ -103,8 +111,9 @@ function ejercicio5() {
                 console.log("La combinacion no se encuentra disponible")
             }
         })
+        iniciar()
     })
-    iniciar()
+    
 }
 
 function ejercicio6() {
